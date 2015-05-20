@@ -1,6 +1,6 @@
-dodaj():
-	a=int(input())
-	b=int(input())
+def dodaj(a,b):
 	return(a+b)
 
-dodaj()
+a=int(input())
+b=int(input())
+print(dodaj(a,b))
